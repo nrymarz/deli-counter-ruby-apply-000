@@ -13,5 +13,9 @@ def take_a_number(line,person)
 end
 
 def now_serving(line)
-  puts "Currently serving #{line.shift}."
+  if line.empty?
+    puts "The line is currently empty."
+  else 
+    puts "Currently serving #{line.shift}."
+  end 
 end
