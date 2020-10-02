@@ -9,4 +9,8 @@ end
 
 def take_a_number(line,person)
   line.push(person)
-  puts
+  puts "Welcome, #{person}. You are number #{array.length} in line."
+end
+
+def now_serving
+end
