@@ -6,7 +6,8 @@ def line(line)
     puts "The line is currently empty."
   else
     puts "The line is currently: #{
-    line.each_with_index do |person"
+    line.each_index do |position|
+      "
   end
 end
 
