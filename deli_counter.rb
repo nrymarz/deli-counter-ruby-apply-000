@@ -7,7 +7,7 @@ def line(line)
   else
     str= "The line is currently: "
     line.each_index do |position|
-      str.push("#{position+1}. #{line[position]} ")
+      str << "#{position+1}. #{line[position]} "
     end
     puts str
   end
