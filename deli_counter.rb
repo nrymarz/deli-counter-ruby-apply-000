@@ -5,9 +5,11 @@ def line(line)
   if line.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{
+    str= "The line is currently: "
     line.each_index do |position|
-      "
+      str.push("#{position+1}. #{line[position]} ")
+    end
+    puts str
   end
 end
 
